@@ -14,11 +14,14 @@ def FormatedList(title, presents_file, delay):
     time.sleep(delay)
   print(" ")
 
-print("My Christmas List \n")
+input(f' Whats the last two digits of the current year? \n')
+print("\nMy Christmas List \n")
 
 now = time.time()
 time.sleep(0.4)
 christmas = time.strptime("25 dec 24", "%d %b %y")
+#christmas = time.strptime("25 dec",(input), "%d %b %y")
+#ability to select the year
 how_long_to_wait = time.mktime(christmas) - now
 #would like to make it so seconds and hours are rounded up always 
 #28days 5 hours to go is then 29 days
