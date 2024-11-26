@@ -34,3 +34,4 @@ time.sleep(0.6)
 
 FormatedList("1. BOOKS:", "books.txt", delay)
 FormatedList("2. CLOTHING:", "clothing.txt", delay)
+FormatedList("3. DIY(WD(with Dad)):", "diy.txt", delay)
